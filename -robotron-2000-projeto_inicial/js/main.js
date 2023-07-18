@@ -63,14 +63,3 @@ function atualizaEstatistica(peca) {
         elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica]
     })
 }
-
-
-
-
-
-
-function dizOi(nome) {
-    console.log(`Oi ${nome}, Bem vindo ao Robotron 2000`);
-}
-
-dizOi("Guga");
