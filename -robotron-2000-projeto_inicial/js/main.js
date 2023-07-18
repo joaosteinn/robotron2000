@@ -41,10 +41,6 @@ control.forEach((elemento) => {
     })
 });
 
-// somar.addEventListener("click", () => {manipulandoDados("somar")})
-
-// subtrair.addEventListener("click", () => {manipulandoDados("subtrair")})
-
 function manipulandoDados(operacao, control) {
 
     const peca = control.querySelector("[data-contador]");
